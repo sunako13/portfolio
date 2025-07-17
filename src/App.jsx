@@ -6,7 +6,7 @@ function App() {
       fontFamily: 'sans-serif' 
     }}>
       <h1>Xush kelibsiz!</h1>
-      <p>Bu mening portfolio saytimgina, hozircha sinov holatida.</p>
+      <p>Bu mening portfolio saytim, hozircha sinov holatida.</p>
     </div>
   );
 }
