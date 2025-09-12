@@ -454,6 +454,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
             align-items: start;
+            
         }
 
         .contact-form {
@@ -512,6 +513,7 @@
             border-radius: 15px;
             backdrop-filter: blur(20px);
             transition: all 0.3s ease;
+            cursor: pointer;
         }
 
         .contact-item:hover {

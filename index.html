@@ -177,7 +177,7 @@
                                 <span class="tech-tag">Stripe</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" target="_blank">Live Demo →</a>
+                                <a href="https://friends-web-one.vercel.app"  target="_blank">Live Demo →</a>
                                 <a href="#" target="_blank">GitHub →</a>
                             </div>
                         </div>
@@ -223,107 +223,103 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2 class="section-title fade-in-up">Let's Work Together</h2>
-                <div class="contact-content fade-in-up">
-                    <div class="contact-info">
-                        <h3>Get in Touch</h3>
-                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">I'm always open to discussing new opportunities and interesting projects. Let's create something amazing together!</p>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">📧</div>
-                            <div>
-                                <strong>Email</strong><br>
-                                <span style="color: var(--text-secondary);">qoldoshevjavohir01@gmail.com</span>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">📱</div>
-                            <div>
-                                <strong>Phone</strong><br>
-                                <span style="color: var(--text-secondary);">+998 77 127 12 35</span>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">💼</div>
-                            <!-- <div>
-                                <strong>LinkedIn</strong><br>
-                                <span style="color: var(--text-secondary);"></span>
-                            </div> -->
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">🐙</div>
-                            <div>
-                                <strong>GitHub</strong><br>
-                                <span style="color: var(--text-secondary);">github.com/sunako13</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
+       <section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title fade-in-up">Let's Work Together</h2>
+    <div class="contact-content fade-in-up">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+          I'm always open to discussing new opportunities and interesting projects. Let's create something amazing together!
+        </p>
 
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+        <!-- Email -->
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <strong>Email</strong><br>
+            <a href="mailto:qoldoshevjavohir01@gmail.com" 
+               style="color: var(--text-secondary); text-decoration: none;">
+              qoldoshevjavohir01@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <strong>Phone</strong><br>
+            <a href="tel:+998771271235" 
+               style="color: var(--text-secondary); text-decoration: none;">
+              +998 77 127 12 35
+            </a>
+          </div>
+        </div>
+
+        <!-- LinkedIn (hozircha bo‘sh edi, link qo‘shamiz) -->
+        <div class="contact-item">
+          <div class="contact-icon">💼</div>
+          <div>
+            <strong>LinkedIn</strong><br>
+            <a href="https://www.linkedin.com/in/javohir-qo-ldoshev-100465364" target="_blank" rel="noopener noreferrer" 
+               style="color: var(--text-secondary); text-decoration: none;">
+              www.linkedin.com/in/javohir-qo-ldoshev
+            </a>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="contact-item">
+          <div class="contact-icon">🐙</div>
+          <div>
+            <strong>GitHub</strong><br>
+            <a href="https://github.com/sunako13" target="_blank" rel="noopener noreferrer" 
+               style="color: var(--text-secondary); text-decoration: none;">
+              github.com/sunako13
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+        
     </main> 
+    
+    <!-- footer section -->
     <footer>
         <div class="container">
             <p>© 2025 Kuldashev Javohir. All rights reserved.</p>
         </div>
     </footer>   
-
-   
-    <script>
-        // Theme toggle function
-        function toggleTheme() {
-            document.body.classList.toggle('dark-theme');
-        }    
-                       
-        // Fade-in animation on scroll
-        const faders = document.querySelectorAll('.fade-in-up');  
-        const appearOptions = {
-            threshold: 0,
-            rootMargin: "0px 0px -100px 0px"
-        };
-        const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting) {
-                    return;
-                } else {
-                    entry.target.classList.add('appear');
-                    appearOnScroll.unobserve(entry.target);
-                }
-            });
-        }, appearOptions);
-        faders.forEach(fader => {
-            appearOnScroll.observe(fader);
-        });
-    </script>
+ <script src="/src/index.js"></script>
 </body>
             
 </html>                          
